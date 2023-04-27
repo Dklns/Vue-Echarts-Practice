@@ -92,7 +92,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .one-chart {
     height: 4.3rem;
 }
