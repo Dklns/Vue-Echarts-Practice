@@ -1,5 +1,5 @@
 <template>
-    <div class="one">
+    <div class="two">
         <h2>周销图</h2>
         <div ref="chart" class="two-chart">
 

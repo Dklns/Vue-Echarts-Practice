@@ -1,5 +1,5 @@
 <template>
-    <div class="one">
+    <div class="three">
         <h2>库存统计</h2>
         <div ref="chart" class="three-chart">
 
