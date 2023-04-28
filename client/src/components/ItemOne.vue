@@ -24,7 +24,6 @@ export default {
         }
 
         onMounted(() => {
-            console.log(chart);
             const oneChart = echarts.init(chart.value);
 
             axios.get('one/data').then(res => {
@@ -94,7 +93,7 @@ export default {
 
 <style lang="scss" scoped>
 .one-chart {
-    height: 4.3rem;
+    height: 4.5rem;
 }
 
 h2 {

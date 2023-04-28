@@ -18,7 +18,6 @@ export default {
 
         onMounted(() => {
             axios.get('/map/china').then(res => {
-                console.log(res);
                 const chinaMap = res.data.chinaMap
 
                 // 注册地图
